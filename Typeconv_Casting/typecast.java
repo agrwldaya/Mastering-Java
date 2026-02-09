@@ -15,7 +15,8 @@ class typecast{
         byte b1 = 10;
         byte b2 = 30;
 
-        int b3 = b1*b2;
+        // byte b3 = b1+b2; --  it will give error bcz in java byte,short and char have arithmetic operation in int
+        // int b3 = b1*b2;
 
 
         // System.out.println(res1);
