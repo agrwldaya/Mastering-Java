@@ -34,6 +34,10 @@ class finaldemo {
         final c obj = new c();
         // obj = new c(); // error: can't assign a new object to a final reference variable
 
+        c c1 = new c();
+        c c2 = new c();
+
+        System.out.println(c1.equals(c2)); // prints false because c1 and c2 are different objects
 
     }
 }
